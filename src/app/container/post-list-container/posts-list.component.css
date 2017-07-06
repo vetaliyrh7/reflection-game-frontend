@@ -1,0 +1,26 @@
+.mat-card-header {
+  border-bottom: solid .01rem lightgray;
+}
+
+.card-wrapper {
+  margin-bottom: 3rem;
+}
+
+.badge-green {
+  background: #5cb85c;
+  color: white;
+}
+
+.custom-chip {
+  padding-top: .3rem;
+  padding-right: 1rem;
+}
+
+.custom-chip .badge-green {
+  outline: none;
+  cursor: default;
+}
+
+.post-tools {
+  margin-bottom: 1.5rem;
+}

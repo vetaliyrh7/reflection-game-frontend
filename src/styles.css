@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 10%;
+  margin-top: 5.5rem;
+}
+
+.mat-toolbar-custom {
+  box-shadow: 0 0.1rem 1rem gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.green-colored {
+  color: green;
+}
+
+.mat-button {
+  margin-right: .5rem!important;
+}
+
+.mat-button:last-child {
+  margin-right: 0!important;
+}
+
+.mat-button:hover,
+.mat-button.active{
+  color: green;
+  background: rgba(256,256,256,1);
+}
+
+.nav-spacer {
+  flex: 1 1 auto;
+}
+
+.important {
+  font-weight: 600;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+blockquote {
+  border-left: solid .7rem green;
+  border-radius: .2rem;
+  color: white;
+  padding: .5rem .5rem;
+  background: #5CB85C;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: black;
+}
